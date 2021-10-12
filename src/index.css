@@ -1,0 +1,136 @@
+body {
+  background-color: #0e031d;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container{
+  max-width: 1500px;
+  margin: 0px 20px 0px 20px;
+}
+.nav-link{
+  color:#0e031d ;
+  font-size:25px;
+}
+.nav-link:hover{
+  color: #FFE3D8;
+}
+
+.navbar{
+  background-color: #FFE3D8;
+  padding: 0;
+}
+.me-auto{
+  min-height: 50px;
+}
+
+.navbar img{
+  max-height: 30px;
+  margin: 0px 10px;
+}
+
+.login-component{
+  min-height: 650px;
+  color: #fff;
+  margin: auto;
+  display: block;
+  align-items: center;
+  
+}
+.login-component .txt{
+  
+  text-align: center;
+}
+.login-component h4{
+  color: #555555;
+}
+.login-component h1{
+  font-size: 80px;
+  padding: 20px;
+  color: #FFE3D8;
+}
+.signup-component{
+  min-height: 650px;
+  color: #fff;
+  margin: auto;
+  display: block;
+  align-items: center;
+  
+}
+.signup-component .txt{
+  
+  text-align: center;
+}
+.signup-component h4{
+  color: #555555;
+}
+.signup-component h1{
+  font-size: 80px;
+  padding: 20px;
+  color: #FFE3D8;
+}
+.btn{
+  min-height: 40px;
+  background-color: #0e031d;
+  border-radius: 8px;
+  
+}
+.mb-3 label {
+  font-size: 18px;
+  font-weight: 500;
+}
+.card{
+  color: #000;
+  min-width: 400px;
+  border-radius: 30px;
+  padding: 30px 50px 30px 50px;
+  margin: 30px auto ;
+}
+
+.signup-component .card{
+  max-width: 800px;
+  margin: 30px auto 100px ;
+}
+.app{
+  display: 100%;
+  margin: 0 ;
+  padding: 0px 0px;
+}
+
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+#footer{
+  background-color: #FFE3D8;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+.col {
+  margin: 50px 0px 0px 0px;
+}
+
+.copyright{
+  margin: 50px 0px 50px 0px ;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000;
+}
+.social-icon{
+  margin: 50px 50px 50px 50px;
+  color: #000;
+  
+}
+.social-icon:hover{
+  color:#393a3b;
+}
