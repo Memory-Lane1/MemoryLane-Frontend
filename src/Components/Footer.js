@@ -13,11 +13,11 @@ const Footer = () => {
                 <div className="row ">
                     <div className="col mr-auto ml-auto ">
 
-                        <a href="#" className="social-icon" target="_blank" ><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
+                        <a href="/" className="social-icon" target="_blank" ><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
 
-                        <a href="#" className="social-icon" target="_blank" ><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
+                        <a href="" className="social-icon" target="_blank" ><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
 
-                        <a href="#" className="social-icon" target="_blank" ><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
+                        <a href="/" className="social-icon" target="_blank" ><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
 
 
                     </div>

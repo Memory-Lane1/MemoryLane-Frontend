@@ -1,136 +1,196 @@
 body {
   background-color: #0e031d;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.container{
+.container {
   max-width: 1500px;
   margin: 0px 20px 0px 20px;
 }
-.nav-link{
-  color:#0e031d ;
-  font-size:25px;
+.nav-link {
+  color: #0e031d;
+  font-size: 25px;
 }
-.nav-link:hover{
-  color: #FFE3D8;
+.nav-link:hover {
+  color: #ffe3d8;
 }
 
-.navbar{
-  background-color: #FFE3D8;
+.navbar {
+  background-color: #ffe3d8;
   padding: 0;
 }
-.me-auto{
+.me-auto {
   min-height: 50px;
 }
 
-.navbar img{
+.navbar img {
   max-height: 30px;
   margin: 0px 10px;
 }
 
-.login-component{
+.login-component {
   min-height: 650px;
   color: #fff;
   margin: auto;
   display: block;
   align-items: center;
-  
 }
-.login-component .txt{
-  
+.login-component .txt {
   text-align: center;
 }
-.login-component h4{
+.login-component h4 {
   color: #555555;
 }
-.login-component h1{
+.login-component h1 {
   font-size: 80px;
   padding: 20px;
-  color: #FFE3D8;
+  color: #ffe3d8;
 }
-.signup-component{
+.signup-component {
   min-height: 650px;
   color: #fff;
   margin: auto;
   display: block;
   align-items: center;
-  
 }
-.signup-component .txt{
-  
+.signup-component .txt {
   text-align: center;
 }
-.signup-component h4{
+.signup-component h4 {
   color: #555555;
 }
-.signup-component h1{
+.signup-component h1 {
   font-size: 80px;
   padding: 20px;
-  color: #FFE3D8;
+  color: #ffe3d8;
 }
-.btn{
+.btn {
   min-height: 40px;
   background-color: #0e031d;
   border-radius: 8px;
-  
 }
 .mb-3 label {
   font-size: 18px;
   font-weight: 500;
 }
-.card{
+.card {
+  color: #000;
+  min-width: 400px;
+  padding: 30px 50px 30px 50px;
+  margin: 30px auto;
+}
+
+.signup-component .card {
   color: #000;
   min-width: 400px;
   border-radius: 30px;
   padding: 30px 50px 30px 50px;
-  margin: 30px auto ;
-}
-
-.signup-component .card{
+  margin: 30px auto;
   max-width: 800px;
-  margin: 30px auto 100px ;
+  margin: 30px auto 100px;
 }
-.app{
+.app {
   display: 100%;
-  margin: 0 ;
+  margin: 0;
   padding: 0px 0px;
 }
 
-
-
-
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-
-#footer{
-  background-color: #FFE3D8;
+#footer {
+  background-color: #ffe3d8;
   padding: 20px 20px 20px 20px;
   text-align: center;
-  font-family: 'Ubuntu', sans-serif;
-  
+  font-family: "Ubuntu", sans-serif;
 }
 .col {
   margin: 50px 0px 0px 0px;
 }
 
-.copyright{
-  margin: 50px 0px 50px 0px ;
+.copyright {
+  margin: 50px 0px 50px 0px;
   font-size: 1.2rem;
   font-weight: 500;
   color: #000;
 }
-.social-icon{
+.social-icon {
   margin: 50px 50px 50px 50px;
   color: #000;
-  
 }
-.social-icon:hover{
-  color:#393a3b;
+.social-icon:hover {
+  color: #393a3b;
+}
+
+.profile-component {
+  min-height: 650px;
+  color: #fff;
+  margin: auto;
+  display: block;
+  align-items: center;
+}
+.profile-component .txt {
+  text-align: center;
+}
+.profile-component h4 {
+  color: #555555;
+}
+.profile-component h1 {
+  font-size: 80px;
+  padding: 20px;
+  color: #ffe3d8;
+}
+.profile-component .card {
+  background-color: #ffe3d8;
+  max-width: 800px;
+  margin: 30px auto 100px;
+}
+.profile-box {
+  min-width: 400px;
+  border-radius: 5px;
+  padding: 30px 50px 30px 50px;
+  margin: 30px auto;
+}
+.dropzone {
+  text-align: center;
+  padding: 30px;
+  border: 3px dashed #eeeeee;
+  background-color: #fafafa;
+  color: #bdbdbd;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.selected-file-wrapper {
+  text-align: center;
+}
+
+.selected-file {
+  color: #000;
+  font-weight: bold;
+}
+
+.upload-component {
+  min-height: 650px;
+  color: #fff;
+  margin: auto;
+  display: block;
+  align-items: center;
+}
+.upload-component .txt {
+  text-align: center;
+}
+.upload-component h4 {
+  color: #555555;
+}
+.upload-component h3 {
+  font-size: 80px;
+  padding: 20px;
+  color: #ffe3d8;
 }
