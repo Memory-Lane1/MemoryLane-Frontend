@@ -7,6 +7,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+a{
+  color: #610de7;
+  text-decoration: none;
+  font-weight: 500;
+  
+  
+}
+.startingcards{
+  display:flex;
+}
+
+.ext{
+  min-width: 200px;
+}
 .container{
   max-width: 1500px;
   margin: 0px 20px 0px 20px;
@@ -78,10 +92,23 @@ body {
   border-radius: 8px;
   
 }
+.front-img{
+  min-width: 1200px;
+  min-height: 300px;
+  text-align: center;
+  padding: 100px 250px;
+  color: white;
+  
+}
+.card-body .btn{
+  display: block;
+  min-width: 100%;
+}
 .mb-3 label {
   font-size: 18px;
   font-weight: 500;
 }
+
 .card{
   color: #000;
   min-width: 400px;
@@ -89,11 +116,24 @@ body {
   padding: 30px 50px 30px 50px;
   margin: 30px auto ;
 }
+.redirectCards {
+  padding: 0;
+  min-width: 300px;
+  border-radius: 0px 0px 30px 30px;
+  border: none;
+  margin: 0px auto;
+}
+
+
+/* .redirectCards img{
+  fill: 100%;
+} */
 
 .signup-component .card{
   max-width: 800px;
   margin: 30px auto 100px ;
 }
+
 .app{
   display: 100%;
   margin: 0 ;
@@ -107,7 +147,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.inputHolder{
+  height:300px;
+  display: block;
+  width: 80%;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin: 70px auto;
+  
+}
+.fileInput{
+  
+  margin: 10px auto;
+  border: 1px dashed white;
+}
 
 #footer{
   background-color: #FFE3D8;
@@ -119,7 +172,13 @@ code {
 .col {
   margin: 50px 0px 0px 0px;
 }
+.home .col{
+  margin:0px;
+}
 
+.mid-row .col{
+  margin: 0;
+}
 .copyright{
   margin: 50px 0px 50px 0px ;
   font-size: 1.2rem;
