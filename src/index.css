@@ -1,3 +1,5 @@
+
+
 body {
   background-color: #0e031d;
   margin: 0;
@@ -94,7 +96,7 @@ a{
 }
 .front-img{
   min-width: 1200px;
-  min-height: 300px;
+  min-height: 500px;
   text-align: center;
   padding: 100px 250px;
   color: white;
@@ -117,21 +119,22 @@ a{
   margin: 30px auto ;
 }
 .redirectCards {
+  transform: translateY(-100);
   padding: 0;
   min-width: 300px;
   border-radius: 0px 0px 30px 30px;
   border: none;
-  margin: 0px auto;
+  margin: 0px auto 100px;
+}
+
+.dis col{
+  padding: 0;
 }
 
 
-/* .redirectCards img{
-  fill: 100%;
-} */
-
 .signup-component .card{
   max-width: 800px;
-  margin: 30px auto 100px ;
+  margin: 30px auto 10px ;
 }
 
 .app{
@@ -140,7 +143,9 @@ a{
   padding: 0px 0px;
 }
 
-
+.shifter{
+  transform: translateY(-10rem);
+}
 
 
 code {
@@ -148,8 +153,9 @@ code {
     monospace;
 }
 .inputHolder{
+  justify-content: center;
   height:300px;
-  display: block;
+  display: flex;
   width: 80%;
   border: 1px solid white;
   border-radius: 30px;
@@ -159,7 +165,8 @@ code {
 .fileInput{
   
   margin: 10px auto;
-  border: 1px dashed white;
+  width: 98%;
+  border-radius: px;
 }
 
 #footer{

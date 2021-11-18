@@ -10,26 +10,26 @@ const Home = () => {
     // let match= useRouteMatch();
     return (
         <div className='home'>
-            <Row className='mb-3'>
+            <Row className='mb-3 dis'>
                 <Col>
-                    <div className='front-img'>
+                    <div style={{backgroundImage: "url(images/star.jpg"}}className='front-img'>
                         <h1>We use AI technology to restore astronomical photos automatically</h1>
                     </div>
                 </Col>
             </Row>
-            <Row className='mb-3'>
+            <Row className='mb-3 shifter'>
                 <Col>
                     <div className='ext'></div>
                 </Col>
                 
                 <Col>
                     <Link to='/enhance'>
-                        <StartingCards  Title='Enhance Image' Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ." Src="./images/comparison.png" Direction='lets go' Redirect='/enhance'  />
+                        <StartingCards  Title='Enhance Image' Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the." Src="./images/cards.jpg" Direction='lets go' Redirect='/enhance'  />
                     </Link>
                 </Col>
                 <Col>
                     <Link to='/restore'>
-                    <StartingCards Title='Restore Image' Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." Src="./images/comparison.png" Direction='lets go' Redirect ='/restore' />
+                    <StartingCards Title='Restore Image' Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the " Src="./images/cards1.jpg" Direction='lets go' Redirect ='/restore' />
                     </Link>
                 </Col>
                 <Col>

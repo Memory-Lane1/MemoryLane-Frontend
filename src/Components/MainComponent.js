@@ -7,6 +7,7 @@ import SignUp from './SignUp'
 import Home from './Home'
 import EnhanceImageUpload from './EnhanceImageUpload'
 import RestoreImageUpload from './RestoreImageUpload'
+import NewsProvider from './NewsProvider'
 
 const MainComponenet = () => {
     return (
@@ -15,8 +16,11 @@ const MainComponenet = () => {
             <Switch>
                 <Route path="/login" component={Login}></Route>
                 <Route path="/SignUp" component={SignUp}></Route>
-                <Route path="/enhance" component={EnhanceImageUpload} ></Route>
+                <Route path="/enhance" >
+                    <EnhanceImageUpload location='http://localhost:5000/uploader' />
+                </Route>
                 <Route path="/restore" component={RestoreImageUpload} ></Route>
+                <Route path ="/news" component={NewsProvider} ></Route>
                 <Route path="/" component={Home} />
             </Switch>
             <Footer/>
