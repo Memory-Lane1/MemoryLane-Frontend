@@ -1,202 +1,34 @@
-
-
+:root {
+	--color-primary-blue: #0278ae;
+	--color-secondary-blue: #2599e3;
+	--color-primary-violet: #b06ab3;
+	--color-blue-violet-light: #a6acec;
+	--color-blue-darker: #4568dc;
+	--color-grey-lightest: #f7f7f7;
+	--color-grey: #eee;
+}
 body {
-  background-color: #0e031d;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
-a{
-  color: #610de7;
-  text-decoration: none;
-  font-weight: 500;
-  
-  
+a {
+	text-decoration: none !important;
 }
-.startingcards{
-  display:flex;
-}
-
-.ext{
-  min-width: 200px;
-}
-.container{
-  max-width: 1500px;
-  margin: 0px 20px 0px 20px;
-}
-.nav-link{
-  color:#0e031d ;
-  font-size:25px;
-}
-.nav-link:hover{
-  color: #FFE3D8;
-}
-
-.navbar{
-  background-color: #FFE3D8;
-  padding: 0;
-}
-.me-auto{
-  min-height: 50px;
-}
-
-.navbar img{
-  max-height: 30px;
-  margin: 0px 10px;
-}
-
-.login-component{
-  min-height: 650px;
-  color: #fff;
-  margin: auto;
-  display: block;
-  align-items: center;
-  
-}
-.login-component .txt{
-  
-  text-align: center;
-}
-.login-component h4{
-  color: #555555;
-}
-.login-component h1{
-  font-size: 80px;
-  padding: 20px;
-  color: #FFE3D8;
-}
-.signup-component{
-  min-height: 650px;
-  color: #fff;
-  margin: auto;
-  display: block;
-  align-items: center;
-  
-}
-.signup-component .txt{
-  
-  text-align: center;
-}
-.signup-component h4{
-  color: #555555;
-}
-.signup-component h1{
-  font-size: 80px;
-  padding: 20px;
-  color: #FFE3D8;
-}
-.btn{
-  min-height: 40px;
-  background-color: #0e031d;
-  border-radius: 8px;
-  
-}
-.front-img{
-  min-width: 1200px;
-  min-height: 500px;
-  text-align: center;
-  padding: 100px 250px;
-  color: white;
-  
-}
-.card-body .btn{
-  display: block;
-  min-width: 100%;
-}
-.mb-3 label {
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.card{
-  color: #000;
-  min-width: 400px;
-  border-radius: 30px;
-  padding: 30px 50px 30px 50px;
-  margin: 30px auto ;
-}
-.redirectCards {
-  transform: translateY(-100);
-  padding: 0;
-  min-width: 300px;
-  border-radius: 0px 0px 30px 30px;
-  border: none;
-  margin: 0px auto 100px;
-}
-
-.dis col{
-  padding: 0;
-}
-
-
-.signup-component .card{
-  max-width: 800px;
-  margin: 30px auto 10px ;
-}
-
-.app{
-  display: 100%;
-  margin: 0 ;
-  padding: 0px 0px;
-}
-
-.shifter{
-  transform: translateY(-10rem);
-}
-
-
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
 }
-.inputHolder{
-  justify-content: center;
-  height:300px;
-  display: flex;
-  width: 80%;
-  border: 1px solid white;
-  border-radius: 30px;
-  margin: 70px auto;
-  
+.top_section {
+	margin-top: 3rem;
 }
-.fileInput{
-  
-  margin: 10px auto;
-  width: 98%;
-  border-radius: px;
-}
-
-#footer{
-  background-color: #FFE3D8;
-  padding: 20px 20px 20px 20px;
-  text-align: center;
-  font-family: 'Ubuntu', sans-serif;
-  
-}
-.col {
-  margin: 50px 0px 0px 0px;
-}
-.home .col{
-  margin:0px;
-}
-
-.mid-row .col{
-  margin: 0;
-}
-.copyright{
-  margin: 50px 0px 50px 0px ;
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: #000;
-}
-.social-icon{
-  margin: 50px 50px 50px 50px;
-  color: #000;
-  
-}
-.social-icon:hover{
-  color:#393a3b;
+.main{
+	padding: 24px;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
 }
